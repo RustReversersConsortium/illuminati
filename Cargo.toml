@@ -2,5 +2,10 @@
 name = "illuminati"
 version = "0.0.1"
 authors = ["m4b <m4b.github.io@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/RustReversersConsortium/illuminati"
+description = "Generic reverse engineering and binary analysis library"
+documentation = "https://docs.rs/illuminati"
+include = ["src/**/*", "Cargo.toml", "LICENSE", "README.md"]
 
 [dependencies]
