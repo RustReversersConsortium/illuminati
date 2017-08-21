@@ -9,3 +9,6 @@ documentation = "https://docs.rs/illuminati"
 include = ["src/**/*", "Cargo.toml", "LICENSE", "README.md"]
 
 [dependencies]
+uuid = { version = "0.5", features = ["v4", "serde"]}
+serde = "1.0.11"
+serde_derive = "1.0.11"
